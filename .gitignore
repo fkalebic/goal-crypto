@@ -1,0 +1,6 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.mo
+
+# virtual_env
+crypto_env/
