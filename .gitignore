@@ -2,5 +2,8 @@
 *.py[cod]
 *.mo
 
+# DB file
+*.sqlite3
+
 # virtual_env
 crypto_env/

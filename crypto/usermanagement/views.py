@@ -1,7 +1,10 @@
 """ My app for password storing testing """
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render, render_to_response
+from django.contrib.auth.decorators import login_required
 
 
+@login_required
 def index(request):
-    return HttpResponse("Hello, world. You're at the index.")
+    user = request.user
+    return render_to_response('usermanagement/home.html', {'user': user})
