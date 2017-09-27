@@ -1,0 +1,3 @@
+[MESSAGES CONTROL]
+
+disable = unused-import, invalid-name, unused-argument, missing-docstring
