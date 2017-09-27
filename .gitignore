@@ -1,9 +1,13 @@
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 *.mo
+*.log
 
 # DB file
 *.sqlite3
 
 # virtual_env
 crypto_env/
+
+#private.py for testing
+crypto/usermanagement/tests/private.py
