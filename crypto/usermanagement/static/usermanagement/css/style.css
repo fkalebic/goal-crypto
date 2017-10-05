@@ -28,3 +28,16 @@ body {
 .login-form form input{
 	max-width: 100%;
 }
+
+/*---------register page--------*/
+.register-form p{
+	width: 70%
+}
+
+.register-form form label{
+	width: 165px;
+}
+
+.register-form form p{
+	text-align: left;
+}
